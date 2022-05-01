@@ -29,6 +29,7 @@ $config->setRules([
     'ordered_class_elements'                => [
         'order' => [
             'use_trait',
+            'case',
             'property_public',
             'property_protected',
             'property_private',
@@ -39,12 +40,16 @@ $config->setRules([
             'constant_protected',
             'constant_private',
             'construct',
-            'destruct',
             'phpunit',
             'method_public',
             'method_protected',
             'method_private',
+            'method_public_abstract',
+            'method_protected_abstract',
+            'method_private_abstract',
+            'destruct',
             'magic',
+            'phpunit'
         ],
     ],
     'blank_line_before_statement'           => true,
