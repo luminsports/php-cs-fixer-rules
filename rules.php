@@ -76,6 +76,8 @@ $config->setRules([
     'yoda_style'                            => false,
     'php_unit_method_casing'                => ['case' => 'snake_case'],
     'phpdoc_no_alias_tag'                   => ['replacements' => ['type' => 'var', 'link' => 'see']],
+
+    'nullable_type_declaration_for_default_null_value' => true,
 ]);
 
 return $config->setFinder($finder)
